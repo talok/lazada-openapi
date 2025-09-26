@@ -45,7 +45,7 @@ console.log("Visit:", client.buildAuthorizationUrl("state"));
 ### Quick start
 
 ```ts
-import { LazadaClient } from "@thada/lazada-openapi";
+import { LazadaClient } from "@talok/lazada-openapi";
 
 const client = new LazadaClient({
   appKey: process.env.LAZADA_APP_KEY!,
