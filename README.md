@@ -130,3 +130,8 @@ const resp = await client.request(
 - The client auto-signs requests using HMAC-SHA256 per Lazada spec.
 - Regions supported: sg, my, ph, th, vn, id (and global).
 - `refreshAccessToken()` helps rotate tokens using the refresh token.
+
+### Repository
+
+- GitHub: [talok/lazada-openapi](https://github.com/talok/lazada-openapi)
+- Issues: [Report a bug](https://github.com/talok/lazada-openapi/issues)

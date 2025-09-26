@@ -33,12 +33,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://example.com/your/repo.git"
+    "url": "git+ssh://git@github.com/talok/lazada-openapi.git"
   },
   "bugs": {
-    "url": "https://example.com/your/repo/issues"
+    "url": "https://github.com/talok/lazada-openapi/issues"
   },
-  "homepage": "https://example.com/your/repo#readme",
+  "homepage": "https://github.com/talok/lazada-openapi#readme",
   "devDependencies": {
     "@types/node": "^22.7.4",
     "eslint": "^9.11.1",
