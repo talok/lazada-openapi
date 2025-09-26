@@ -1,11 +1,11 @@
-## @thada/lazada-openapi
+## @talok/lazada-openapi
 
 TypeScript Lazada Open API client with robust signing, OAuth helpers, and typed errors.
 
 ### Install
 
 ```bash
-npm i @thada/lazada-openapi
+npm i @talok/lazada-openapi
 ```
 
 ### Optional: Built-in server + MySQL token storage
@@ -15,7 +15,7 @@ import {
   LazadaClient,
   MySqlTokenStore,
   startCallbackServer,
-} from "@thada/lazada-openapi";
+} from "@talok/lazada-openapi";
 
 const store = new MySqlTokenStore({ uri: process.env.MYSQL_URI });
 const client = new LazadaClient({
