@@ -1,0 +1,52 @@
+{
+  "name": "@thada/lazada-openapi",
+  "version": "1.0.0",
+  "description": "TypeScript Lazada Open API client with typed errors and robust signing.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "lint": "echo 'eslint config not set up; skipping'",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "lazada",
+    "lazada-open-platform",
+    "openapi",
+    "sdk",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://example.com/your/repo.git"
+  },
+  "bugs": {
+    "url": "https://example.com/your/repo/issues"
+  },
+  "homepage": "https://example.com/your/repo#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "eslint": "^9.11.1",
+    "typescript": "^5.6.3",
+    "rimraf": "^5.0.10"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "mysql2": "^3.11.3"
+  }
+}
